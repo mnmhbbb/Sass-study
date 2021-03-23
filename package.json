@@ -1,12 +1,12 @@
 {
-  "name": "Sass-study",
+  "name": "sassstudy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "node-sass": "node-sass",
-    "sass": "node-sass -wr styles/main.scss style.css"
+    "sass": "node-sass -wr --source-map true styles/main.scss style.css"
   },
   "repository": {
     "type": "git",
@@ -14,12 +14,12 @@
   },
   "keywords": [],
   "author": "mnmhbbb",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mnmhbbb/Sass-study/issues"
   },
   "homepage": "https://github.com/mnmhbbb/Sass-study#readme",
   "dependencies": {
-    "node-sass": "^5.0.0"
+    "node-sass": "^4.14.1"
   }
 }
