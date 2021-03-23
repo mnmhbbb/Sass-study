@@ -1,0 +1,25 @@
+{
+  "name": "Sass-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-sass": "node-sass",
+    "sass": "node-sass -wr styles/main.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnmhbbb/Sass-study.git"
+  },
+  "keywords": [],
+  "author": "mnmhbbb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnmhbbb/Sass-study/issues"
+  },
+  "homepage": "https://github.com/mnmhbbb/Sass-study#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
